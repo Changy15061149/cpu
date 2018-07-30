@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Windows/System32/P7/test_datapath_isim_beh.exe" -prj "C:/Windows/System32/P7/test_datapath_beh.prj" "work.test_datapath" "work.glbl" 

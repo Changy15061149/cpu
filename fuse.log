@@ -1,0 +1,63 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Windows/System32/P7/test_datapath_isim_beh.exe -prj C:/Windows/System32/P7/test_datapath_beh.prj work.test_datapath work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Windows/System32/P7/IM.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/TC.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/RAM.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/multi.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/MEMWB.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/instr.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/IFID.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/IDEX.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/HazardController.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/GPR.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/EXMEM.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/dataextend.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/cp0.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/controller.v" into library work
+WARNING:HDLCompiler:751 - "C:/Windows/System32/P7/controller.v" Line 72: Redeclaration of ansi port bgezalr is not allowed
+Analyzing Verilog file "C:/Windows/System32/P7/bridge.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/BEextend.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/alu.v" into library work
+Analyzing Verilog file "C:/Windows/System32/P7/datapath.v" into library work
+WARNING:HDLCompiler:35 - "C:/Windows/System32/P7/datapath.v" Line 260: <SR> is already implicitly declared earlier.
+Analyzing Verilog file "C:/Windows/System32/P7/test_datapath.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Windows/System32/P7/datapath.v" Line 100: Port IR is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Windows/System32/P7/datapath.v" Line 126: Port memWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Windows/System32/P7/datapath.v" Line 226: Port ALUOp is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Windows/System32/P7/datapath.v" Line 239: Port DR is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Windows/System32/P7/datapath.v" Line 245: Port ALUOp is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/Windows/System32/P7/datapath.v" Line 215: Size mismatch in connection of port <ExCode>. Formal port size is 5-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 101852 KB
+Fuse CPU Usage: 452 ms
+Compiling module IM
+Compiling module instr
+Compiling module IFID
+Compiling module controller
+Compiling module GPR
+Compiling module IDEX
+Compiling module alu
+Compiling module multi
+Compiling module EXMEM
+Compiling module BEextend
+Compiling module bridge
+Compiling module TC
+Compiling module RAM
+Compiling module cp0
+Compiling module dataextend
+Compiling module MEMWB
+Compiling module HazardController
+Compiling module datapath
+Compiling module test_datapath
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable C:/Windows/System32/P7/test_datapath_isim_beh.exe
+Fuse Memory Usage: 109772 KB
+Fuse CPU Usage: 935 ms
